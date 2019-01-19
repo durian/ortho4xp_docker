@@ -51,6 +51,8 @@ ENV DISPLAY=host.docker.internal:0
 ENV LC_ALL=C.UTF-8
 
 WORKDIR /tmp/Ortho4XP/
+COPY Ortho4XP.cfg /tmp/Ortho4XP/
+
 #ENTRYPOINT ["build.sh"]
 ENTRYPOINT [ "bash" ]
 
